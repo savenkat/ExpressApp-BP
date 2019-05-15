@@ -1,5 +1,5 @@
 container: 
-  endpoint: savenkatacr
+  endpoint: savenkatacrlegacy
   image: "savenkatacrsin.azurecr.io/hello-world"
 
 pool: "sandeeppool"

@@ -2,7 +2,9 @@ container:
   endpoint: savenkatacrsinendpoint
   image: "savenkatacrsin.azurecr.io/ubuntu"
 
-pool: "sandeeppool"
+pool: 
+  name: rmagentpool
+  demands: custom
 
 steps: 
   - script: "echo hello"

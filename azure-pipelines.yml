@@ -1,6 +1,6 @@
 container: 
   endpoint: savenkatacrsinendpoint
-  image: "savenkatacrsin.azurecr.io/hello-world"
+  image: "savenkatacrsin.azurecr.io/ubuntu"
 
 pool: "sandeeppool"
 

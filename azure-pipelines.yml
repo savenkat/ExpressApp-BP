@@ -2,7 +2,8 @@ container:
   endpoint: savenkatacrsinadminendpoint
   image: "savenkatacrsinadmin.azurecr.io/ubuntu"
 
-pool: "rmagentpool"
+pool: 
+  name: rmagentpool
   demands: custom
 
 steps: 
